@@ -185,7 +185,7 @@ router.post('/app_user/share', function(request,response) {
                 headers: {
                     "content-type": "application/json",
                     "content-length": post_data.length,
-                    "authorization": "Key=AIzaSyDvDxzuIZkQrbm5Om-C3PuWFq6Natq5Owc"
+                    "authorization": "Key=google_key"
                 }
             };
             return callback(null,post_data,options);

@@ -5,10 +5,10 @@ var mysql = require('mysql');
  */
 
 var connection = mysql.createConnection({ // Mysql Connection
-    host     : 'gcmdb.cjvnpjckxvi2.us-west-1.rds.amazonaws.com',
+    host     : 'localhost',
     port     : '3306',
-    user     : 'tushar',
-    password : 'dbpassgcm',
+    user     : 'root',
+    password : 'admin',
     database : 'gcmdb'
 
 });
